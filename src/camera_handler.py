@@ -4,7 +4,7 @@ Camera handler for live video capture.
 import cv2  ## python module for Open Source Computre Vision Library. It helps computers see by processing images and video. It opens up the camera
 import numpy as np
 from typing import Optional
-
+#
 
 class CameraHandler:
     """Manages webcam video capture."""

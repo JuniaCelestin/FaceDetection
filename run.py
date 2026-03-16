@@ -3,6 +3,7 @@
 Launcher script for Face Recognition App.
 Run this from the project root directory.
 """
+#
 import sys
 import os
 

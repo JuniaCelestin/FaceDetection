@@ -2,6 +2,7 @@
 Main GUI application for face recognition.
 Built with PySide6 (Qt for Python).
 """
+#
 import sys
 import cv2
 import numpy as np

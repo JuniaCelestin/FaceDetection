@@ -2,6 +2,7 @@
 Face database manager.
 Handles saving, loading, and searching saved faces with embeddings.
 """
+#
 import os
 import json
 import numpy as np

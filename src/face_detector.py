@@ -2,6 +2,7 @@
 Face detection and recognition module.
 Uses MediaPipe for face detection/landmarks and face_recognition for embeddings.
 """
+#
 import cv2
 import numpy as np
 import mediapipe as mp
