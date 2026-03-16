@@ -60,7 +60,7 @@ class FaceDatabase:
 
         with open(self.index_file, 'w') as f:
 
-            json.dump(self.index, index=4, fp=f)
+            json.dump(self.index, indent=4, fp=f)
 
 
     @staticmethod
@@ -310,3 +310,6 @@ class FaceDatabase:
                 results.append(face)
 
         return results
+
+
+

@@ -57,7 +57,7 @@ class CameraHandler:
         self.is_running = False
 
         # Release camera resources if active
-        if self.is_running is not None:
+        if self.capture is not None:
             # TODO: Call the release() method to free the camera
             self.capture.release()
             self.capture = None
@@ -85,6 +85,10 @@ class CameraHandler:
         if ret:
             return frame
         return None
+
+    def read(self) -> Optional[np.ndarray]:
+        """Compatibility wrapper for read_frame()."""
+        return self.read_frame()
 
 
 

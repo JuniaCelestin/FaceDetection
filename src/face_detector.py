@@ -89,7 +89,7 @@ class FaceDetector:
             # Check if faces were detected
         if face_mesh_results.multi_face_landmarks:  #check
                 # Process each detected face
-            for face_landmarks in face_mesh_results.image: #check
+            for face_landmarks in face_mesh_results.multi_face_landmarks: #check
                     # TODO: Draw tessellation (full mesh)
                 self.mp_drawing.draw_landmarks(
                     image=output,
